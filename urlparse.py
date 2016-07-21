@@ -1,7 +1,7 @@
 import urllib.parse
 
-def parse(urlstring):
-	parts = urllib.parse.urlparse(urlstring)
+def parse(url):
+	parts = urllib.parse.urlparse(url)
 	query = urllib.parse.parse_qs(parts[4])
 	
 	for name in query:
