@@ -1,4 +1,6 @@
 # urlparse
+A tiny wrapper for the `urllib.parse` standard library that parses urls to mutable dictionaries instead of tuples.
+
 Parse urls using `urlparse.parse`
 ```
 import urlparse
