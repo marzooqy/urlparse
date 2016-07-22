@@ -1,7 +1,7 @@
 A thin wrapper for the `urllib.parse` standard library. Parses urls to mutable dictionaries instead of tuples.
 
 ###Example
-Parse urls using `urlparse.parse`
+Parse the url using `urlparse.parse`
 ```
 import urlparse
 parts = urlparse.parse('https://github.com/marzooqy/foo?test=hello_world')
