@@ -15,5 +15,5 @@ del parts['query']['test']
 And unparse the dictionary using `urlparse.unparse`:
 ```
 urlparse.unparse(parts)
-# 'https://www.github.com/marzooqy/urlparse'
+# 'https://github.com/marzooqy/urlparse'
 ```
