@@ -1,7 +1,6 @@
-# urlparse
-A tiny wrapper for the `urllib.parse` standard library that parses urls to mutable dictionaries instead of tuples.
+A tiny wrapper for the `urllib.parse` standard library. Parses urls to mutable dictionaries instead of tuples.
 
-##Example
+#####Example
 Parse urls using `urlparse.parse`
 ```
 import urlparse
