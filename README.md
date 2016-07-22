@@ -1,4 +1,4 @@
-A tiny wrapper for the `urllib.parse` standard library. Parses urls to mutable dictionaries instead of tuples.
+A thin wrapper for the `urllib.parse` standard library. Parses urls to mutable dictionaries instead of tuples.
 
 ###Example
 Parse urls using `urlparse.parse`
